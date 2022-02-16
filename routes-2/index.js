@@ -33,15 +33,8 @@ app.get("/updateNewData", function (req, res) {
 });
 
 app.get("/displayData", function (req, res) {
-  res.send(
-    fs.readFile("./txt/newData.txt", "utf8", (err, data) => {
-      if (err) {
-        console.log(err);
-        return;
-      }
-      console.log(data);
-    })
-  );
+    let data = fs.readFileSync("./txt/newData.txt", {encoding : "UTF8"})
+    res.send(data);
 });
 
 app.listen(port, function name(params) {
