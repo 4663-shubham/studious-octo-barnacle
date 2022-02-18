@@ -1,0 +1,22 @@
+{
+  "name": "user-api",
+  "version": "1.0.0",
+  "description": "creating json file of user",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/attainu/subham-kumar-au26.git"
+  },
+  "author": "Shubham Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/attainu/subham-kumar-au26/issues"
+  },
+  "homepage": "https://github.com/attainu/subham-kumar-au26#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
