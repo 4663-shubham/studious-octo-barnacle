@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div>
+        <h1>Hangman Game</h1>
+        <h2>Javascript Hangman Gmae</h2>
+        <p>Use the alphabet below to guess the word or click on hint to get the clue</p>
+    </div>
+
+    <div class="wrapper">
+        <div id="button"></div>
+        <p id="catagoryName"></p>
+        <div id="hold"></div>
+        <p id="myLives"></p>
+        <p id="clues"></p>
+        <!-- The HTML <canvas> element is used to draw graphics, on the fly, via JavaScript.
+            The <canvas> element is only a container for graphics. You must use JavaScript to actually draw the graphics. -->
+        <canvas id="stickman">Your Browser not support HTML5 canvas tag</canvas>
+        <div class="container">
+            <button id="hint">Hint</button>
+            <button id="reset">Play Again</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
