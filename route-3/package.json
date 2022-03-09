@@ -1,0 +1,22 @@
+{
+  "name": "route-3",
+  "version": "1.0.0",
+  "description": "basic routing with visit counter count in json",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github.com/subham-kumar-au26.git"
+  },
+  "author": "Shubham Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/github.com/subham-kumar-au26/issues"
+  },
+  "homepage": "https://github.com/github.com/subham-kumar-au26#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
